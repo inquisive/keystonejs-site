@@ -1,10 +1,12 @@
+extends ../../../../../common/templates/layout/base
+
 include ../../../../templates/mixins/docsapinav
 
 block intro
 	.page-header
 		.container
-			h1 Ref:Class
-			p.lead .current(#{branch})
+			h1 Class Reference
+			p.lead Current (#{branch})
 	
 block content
 	.container: .row
